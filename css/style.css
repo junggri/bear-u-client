@@ -5,32 +5,36 @@
 html,body{
   /* height: 100%; */
 }
-main{
-  /* border:1px solid black; */
-  height:100%;
-  width: 1000px;
+header{
+  padding:10px;
+}
+header > h1,
+header > h2{
+  display: inline-block;
+}
+.content{
+  width:800px;
   margin: 0 auto;
-  /* border:1px solid red; */
 }
-main > header{
-  /* border: 1px solid black; */
-  margin-top:100px;
+.content > ul > li{
+  list-style: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  padding-bottom: 20px;
+  border-bottom:1px solid rgba(0,0,0,0.2);
 }
-main > header > h1{
-  font-size:40px;
+.content > ul > li > h1{
+  font-size:25px;
   font-weight: bolder;
 }
-main > header > h2{
-  margin-top:7px;
+.content > ul > li > h2 {
+  font-size:20px;
 }
-main > form{
-  display: flex;
-  margin-top: 50px;
+.content > ul > li > span{
+  margin-top:15px;
+  display: inline-block;
 }
-main > form > ul{
-  width:100px;
-}
-main > form > article{
-  width:100%;
-  margin-left:50px;
+.content > ul > li > h3 {
+  text-align: right;
+  font-size:12px;
 }
