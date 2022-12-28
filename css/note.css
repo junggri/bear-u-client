@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding:0;
+}
+main{
+  width: 1000px;
+  margin: 0 auto;
+}
+main > form {
+   width: 100%;
+}
+main > form > header{
+  margin-top:100px;
+}
+main > form > .user_input{
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+}
+.user_input > input,
+.user_input > textarea{
+  outline: none;
+  border:none;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+  margin-top:20px;
+  padding: 10px;;
+}
+.user_input > input{
+  padding: 10px 0px;
+}
+.user_input > textarea{
+  resize:none;
+  bordeR:1px solid rgba(0,0,0,0.2);
+  border-radius: 10px;;
+}
+
+.user_input > input:hover{
+  border-bottom: 1px solid rgba(0,0,0,0.9);
+  transition: 0.2s all
+}
+.user_input > textarea:hover{
+  border: 1px solid rgba(0,0,0,.9);
+  transition:0.2s all
+}
+main > form > footer{
+  margin-top:20px;
+  display: flex;
+  justify-content: end;
+  gap:20px;
+}
+main > form > footer > button{
+  border: 1px solid rgba(0,0,0,0.2);
+  padding:10px 20px;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+}

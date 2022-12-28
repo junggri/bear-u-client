@@ -1,36 +1,40 @@
 *{
-  padding:0;
   margin:0;
-}
-html,body{
-  /* height: 100%; */
+  padding: 0;
 }
 main{
-  /* border:1px solid black; */
-  height:100%;
-  width: 1000px;
+  width:1000px;
   margin: 0 auto;
-  /* border:1px solid red; */
 }
 main > header{
-  /* border: 1px solid black; */
   margin-top:100px;
 }
 main > header > h1{
-  font-size:40px;
-  font-weight: bolder;
+  font-size: 80px;
 }
 main > header > h2{
-  margin-top:7px;
+  font-size:30px;
 }
-main > form{
+main > ul{
   display: flex;
-  margin-top: 50px;
+  gap:15px;
+  margin-top:40px;
 }
-main > form > ul{
-  width:100px;
+main > ul > li{
+  list-style: none;
+  padding: 5px 10px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 15px;
+  cursor: pointer;
 }
-main > form > article{
-  width:100%;
-  margin-left:50px;
+main > ul > li:hover{
+  transform: scale(1.1);
+  transition:0.2s all;
+}
+main > ul > button {
+  padding:5px 10px;
+  border-radius: 15px;
+  border:1px solid rgba(0,0,0,0.2);
+  cursor: pointer;
+  font-size:15px;
 }
