@@ -1,6 +1,7 @@
 *{
     padding:0;
     margin:0;
+
 }
 .content{
     width:800px;
@@ -15,17 +16,17 @@ header{
     font-size:30px;
 }
 .title > span{
-    font-size:12px;
+    font-size:14px;
     display: inline-block;
+    width:100%;
     text-align: right;
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 .description{
     font-size:17px;
     margin-top:10px;
     font-weight: 500;
 }
-.content{
-    margin-top: 40px;
-
+.content-body{
+    margin-top:20px;
 }
