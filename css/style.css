@@ -1,12 +1,36 @@
 *{
   padding:0;
   margin:0;
+  color:#222222;
+}
+a{
+  text-decoration: none;
 }
 html,body{
   /* height: 100%; */
 }
 header{
-  padding:10px;
+  padding:10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+header > h1 {
+}
+header > div > a > button{
+  padding:5px 20px;
+  border:1px solid rgba(0,0,0,0.6);
+  cursor: pointer;
+  background: white;
+  border-radius: 3px;
+  font-size:12px;
+  transition: 0.5s all;
+}
+header > div > a > button:hover{
+  background-color: #2725D2;
+  color:white;
+  border:1px solid  #2725D2;
 }
 header > h1,
 header > h2{
@@ -16,25 +40,29 @@ header > h2{
   width:800px;
   margin: 0 auto;
 }
-.content > ul > li{
+.note-list-item{
   list-style: none;
   margin-bottom: 20px;
   cursor: pointer;
   padding-bottom: 20px;
   border-bottom:1px solid rgba(0,0,0,0.2);
 }
-.content > ul > li > h1{
-  font-size:25px;
-  font-weight: bolder;
+.note-list-item > h1 {
+  font-size:23px;
 }
-.content > ul > li > h2 {
-  font-size:20px;
-}
-.content > ul > li > span{
+.note-list-item > h2 {
+  font-size:16px;
   margin-top:15px;
-  display: inline-block;
+  font-weight: lighter;
+  color:rgba(0,0,0,0.7);
 }
-.content > ul > li > h3 {
+.note-list-item > p{
+  margin-top:13px;
+
+}
+.note-list-item > h3 {
   text-align: right;
   font-size:12px;
+  margin-top:10px;
+  color:rgba(0,0,0,0.7);
 }

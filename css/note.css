@@ -1,0 +1,68 @@
+*{
+    padding:0;
+    margin:0;
+    color:#222222;
+}
+html,body{
+    /* height: 100%; */
+}
+.content{
+    width:800px;
+    margin: 0 auto;
+}
+header{
+    padding:10px 0px;
+    margin-bottom: 60px;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.user-input > span{
+    font-size:20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+.user-input > input{
+    margin-top:10px;
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,0.4);
+    outline-style: none;
+    padding: 10px 0;
+    font-size:15px;
+    transition: 0.5s linear border;
+}
+.user-input > input:hover,
+.user-input > input:focus{
+    border-bottom:1px solid #2725D2;
+}
+.user-input > textarea{
+    outline-style: none;
+    margin-top:10px;
+    border:none;
+    resize:none;
+    height:100px;
+    border-radius: 2px;
+    padding:4px;
+}
+.button-wrapper{
+    display: flex;
+    justify-content: end;
+    gap:10px;
+}
+.button-wrapper > button,
+.button-wrapper > a > button{
+    border:1px solid rgba(0,0,0,0.6);
+    padding:5px 20px;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    font-size:12px;
+}
+.button-wrapper > button.create{
+    background-color: #2725D2;
+    border: 1px solid #2725D2;
+    color:white
+}

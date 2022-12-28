@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/note.css">
+    <title>Document</title>
+</head>
+<body>
+    <form class="content" method="post" action="/create">
+        <header>
+            <h1>MEMO</h1>
+        </header>
+        <div class="user-input">
+            <input type="text" placeholder="제목을 입력하세요"/>
+        </div>
+        <div class="user-input">
+            <input type="text" placeholder="부제를 입력하세요"/>
+        </div>
+        <div class="user-input">
+            <textarea placeholder="당신의 하루를 입력하세요"></textarea>
+        </div>
+        <div class="button-wrapper">
+            <a href="../index.html">
+                <button type="button" class="cancel">취소하기</button>
+            </a>
+            <button type="submit" class="create">생성하기</button>
+        </div>
+    </form>
+</body>
+</html>
