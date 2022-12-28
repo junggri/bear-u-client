@@ -1,57 +1,69 @@
 *{
-  margin:0;
-  padding:0;
+    padding:0;
+    margin:0;
+    color:#222222;
 }
-main{
-  width: 1000px;
-  margin: 0 auto;
+html,body{
+    /* height: 100%; */
 }
-main > form {
-   width: 100%;
+.content{
+    width:800px;
+    margin: 0 auto;
 }
-main > form > header{
-  margin-top:100px;
+header{
+    padding:10px 0px;
+    margin-bottom: 60px;
 }
-main > form > .user_input{
-  display: flex;
-  flex-direction: column;
-  margin-top:20px;
+.user-input{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+    margin-bottom:20px;
 }
-.user_input > input,
-.user_input > textarea{
-  outline: none;
-  border:none;
-  border-bottom:1px solid rgba(0,0,0,0.2);
-  margin-top:20px;
-  padding: 10px;;
+.user-input > span{
+    font-size:20px;
+    font-weight: bolder;
+    display: inline-block;
 }
-.user_input > input{
-  padding: 10px 0px;
+.user-input > input{
+    margin-top:10px;
+    border:none;
+    border-bottom:1px solid rgba(0,0,0,0.4);
+    outline-style: none;
+    padding: 10px 0;
+    font-size:15px;
+    transition: 0.5s linear border;
 }
-.user_input > textarea{
-  resize:none;
-  bordeR:1px solid rgba(0,0,0,0.2);
-  border-radius: 10px;;
+.user-input > input:hover,
+.user-input > input:focus{
+    border-bottom:1px solid #2725D2;
 }
-
-.user_input > input:hover{
-  border-bottom: 1px solid rgba(0,0,0,0.9);
-  transition: 0.2s all
+.user-input > textarea{
+    outline-style: none;
+    margin-top:10px;
+    border:none;
+    resize:none;
+    height:100px;
+    border-radius: 2px;
+    padding:4px;
 }
-.user_input > textarea:hover{
-  border: 1px solid rgba(0,0,0,.9);
-  transition:0.2s all
+.button-wrapper{
+    display: flex;
+    justify-content: end;
+    gap:10px;
 }
-main > form > footer{
-  margin-top:20px;
-  display: flex;
-  justify-content: end;
-  gap:20px;
+.button-wrapper > button,
+.button-wrapper > a > button{
+    border:1px solid rgba(0,0,0,0.6);
+    padding:5px 20px;
+    border-radius: 3px;
+    background: white;
+    cursor: pointer;
+    font-size:12px;
 }
-main > form > footer > button{
-  border: 1px solid rgba(0,0,0,0.2);
-  padding:10px 20px;
-  border-radius: 4px;
-  background-color: white;
-  cursor: pointer;
+.button-wrapper > button.create{
+    background-color: #2725D2;
+    border: 1px solid #2725D2;
+    color:white
+>>>>>>> c6b1714369aed70e6e10e4df80053c04bf3459b9
 }
