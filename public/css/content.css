@@ -14,6 +14,14 @@ header{
 .title{
     font-weight: bolder;
     font-size:30px;
+    padding-bottom:20px;
+}
+.title > h1 {
+    font-weight: bolder;
+}
+.description{
+    font-size:17px;
+    font-weight: 500;
 }
 .title > span{
     font-size:14px;
@@ -22,11 +30,7 @@ header{
     text-align: right;
     /* border:1px solid red; */
 }
-.description{
-    font-size:17px;
-    margin-top:10px;
-    font-weight: 500;
-}
 .content-body{
     margin-top:20px;
+    line-height: 1.7;
 }
