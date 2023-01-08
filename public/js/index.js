@@ -57,13 +57,24 @@ function modifyOrDeleteNote(){
     });
 }
 
+function getNotes(){
+    fetch('http://localhost:3000/lists',{
+        method:"get",
+        headers:{
+            "Content-type":"application/json"
+        }
+    }).then(function(result){
+        result.json().then(data=>console.log(data))
+    })
+}
+
 
 function init(){
     const element = findDom("#note-list-wrapper");
     for(let i = 0; i < 3; i++){
         element.appendChild(makeList())
     }
-
+    // getNotes()
     modifyOrDeleteNote()
 }
 

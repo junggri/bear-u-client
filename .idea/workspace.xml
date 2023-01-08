@@ -3,20 +3,33 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e43c394d-4330-4a61-8239-f53f3c2d5e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/view/content/20221227.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/view/modify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/content.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/content.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/note.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/note.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/content/20221227.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/note.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/view/note.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/view/note.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/view/note.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +47,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/jslee3/Desktop/bear-u-server",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2022.1.1\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.13.2" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.18.11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jslee3\Desktop\bear-u-client\public" />
@@ -68,6 +74,10 @@
       <workItem from="1672212884685" duration="51000" />
       <workItem from="1672270244656" duration="1418000" />
       <workItem from="1672272681693" duration="16573000" />
+      <workItem from="1672569129485" duration="725000" />
+      <workItem from="1673075594635" duration="743000" />
+      <workItem from="1673076359333" duration="1015000" />
+      <workItem from="1673077447895" duration="8992000" />
     </task>
     <servers />
   </component>
@@ -84,5 +94,24 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="127" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672570543879">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state x="127" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1792.1037@0.25.1792.1037" timestamp="1672570543879" />
+    <state x="383" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1672570516272">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state x="383" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1792.1037@0.25.1792.1037" timestamp="1672570516272" />
+    <state x="429" y="180" key="SettingsEditor" timestamp="1673138477336">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state x="429" y="180" key="SettingsEditor/0.25.1792.1037@0.25.1792.1037" timestamp="1673138477336" />
+    <state x="651" y="487" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1673104292709">
+      <screen x="0" y="25" width="1792" height="1037" />
+    </state>
+    <state x="651" y="487" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.25.1792.1037@0.25.1792.1037" timestamp="1673104292709" />
   </component>
 </project>
