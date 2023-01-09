@@ -22,14 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e43c394d-4330-4a61-8239-f53f3c2d5e63" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="e43c394d-4330-4a61-8239-f53f3c2d5e63" name="Changes" comment="[add] 프론트 요청 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/view/note.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/view/note.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +73,17 @@
       <workItem from="1672569129485" duration="725000" />
       <workItem from="1673075594635" duration="743000" />
       <workItem from="1673076359333" duration="1015000" />
-      <workItem from="1673077447895" duration="8992000" />
+      <workItem from="1673077447895" duration="9060000" />
+      <workItem from="1673267144049" duration="1796000" />
     </task>
+    <task id="LOCAL-00001" summary="[add] 프론트 요청 추가">
+      <created>1673182746065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1673182746065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +100,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[add] 프론트 요청 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add] 프론트 요청 추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="127" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1672570543879">

@@ -64,7 +64,10 @@ function getNotes(){
             "Content-type":"application/json"
         }
     }).then(function(result){
-        result.json().then(data=>console.log(data))
+        result.json()
+           .then(function (result){
+
+           })
     })
 }
 
@@ -74,7 +77,7 @@ function init(){
     for(let i = 0; i < 3; i++){
         element.appendChild(makeList())
     }
-    // getNotes()
+    getNotes()
     modifyOrDeleteNote()
 }
 

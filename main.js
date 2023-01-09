@@ -23,16 +23,16 @@ app.get("/note:id", function(request,response){
 })
 
 app.get("/lists", function(request,response){
-    axios.get(process.env.REQUEST_URL + "/list",{
+    axios.get(process.env.REQUEST_URL + "/lists",{
         method:'get',
         headers:{
             "Content-type":"application/json"
         }
     }).then(function(result){
-        response.json(result)
+        response.status(200).json(result.data)
     }).catch(function(err){
         console.log(err);
-        response.end()
+        response.status(500).json({message: "not exist"})
     })
 })
 
@@ -46,7 +46,10 @@ app.post("/create",function(request,response){
         data : request.body
     })
     .then(function (result){
-        response.end()
+        if(result.data.status === "success"){
+            response.redirect("/")
+        }
+        // response.end()
     })
     .catch(function(err){
         console.log(err)
